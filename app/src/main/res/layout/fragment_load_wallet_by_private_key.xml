@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_private_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/mnemonic_backup_bg"
+            android:gravity="start"
+            android:hint="@string/load_wallet_by_private_key_hint"
+            android:minHeight="100dp"
+            android:padding="10dp"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="21dp"
+            android:orientation="horizontal">
+
+            <com.easyetz.view.MText
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1.1"
+                android:gravity="center_vertical"
+                android:text="@string/create_wallet_tname"
+                android:textColor="@color/zt_black_2"
+                android:textSize="@dimen/zt_14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <EditText
+                android:id="@+id/key_wallet_name"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2"
+                android:background="@null"
+                android:hint="@string/create_wallet_name"
+                android:maxLength="16"
+                android:paddingStart="5dp"
+                android:textColor="@color/discovery_application_item_name_color"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.75dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/mine_menu_divider_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="21dp"
+            android:orientation="horizontal">
+
+            <com.easyetz.view.MText
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1.1"
+                android:gravity="center_vertical"
+                android:text="@string/create_wallet_pwd"
+                android:textColor="@color/zt_black_2"
+                android:textSize="@dimen/zt_14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <EditText
+                android:id="@+id/key_wallet_pwd"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2"
+                android:background="@null"
+                android:hint="@string/create_wallet_inputpwd"
+                android:inputType="textPassword"
+                android:maxLength="12"
+                android:paddingStart="5dp"
+                android:textColor="@color/discovery_application_item_name_color"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.75dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="21dp"
+            android:orientation="horizontal">
+
+            <com.easyetz.view.MText
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1.1"
+                android:gravity="center_vertical"
+                android:text="@string/create_wallet_apwd"
+                android:textColor="@color/zt_black_2"
+                android:textSize="@dimen/zt_14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <EditText
+                android:id="@+id/key_wallet_pwd_again"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2"
+                android:background="@null"
+                android:hint="@string/create_wallet_affirmpwd"
+                android:inputType="textPassword"
+                android:maxLength="12"
+                android:paddingStart="5dp"
+                android:textColor="@color/discovery_application_item_name_color"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.75dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/mine_menu_divider_color" />
+
+        <TextView
+            android:id="@+id/keybtn_load_wallet"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="31dp"
+            android:background="@drawable/create_wallet_btn_bg_selector"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="@string/load_wallet_btn"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</ScrollView>

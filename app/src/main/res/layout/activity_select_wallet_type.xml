@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".modules.walletmanage.selectwallettype.SelectWalletType">
+
+    <include layout="@layout/title_project" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:orientation="vertical">
+
+        <com.easyetz.view.MText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:text="@string/load_wallet_btn"
+            android:textColor="@color/gray"
+            android:textSize="13sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:id="@+id/import_etz"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/seek" />
+
+        <com.easyetz.view.MText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="ETZ-EtherZero"
+            android:textSize="13sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_right_arrow" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:id="@+id/import_btc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/btc" />
+
+        <com.easyetz.view.MText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="BTC-Bitcoin"
+            android:textSize="13sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_right_arrow" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:id="@+id/import_eth"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/eth" />
+
+        <com.easyetz.view.MText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="ETH-Ethereum"
+            android:textSize="13sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_right_arrow" />
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

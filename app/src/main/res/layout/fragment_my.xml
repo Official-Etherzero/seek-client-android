@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/web_rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp">
+
+            <com.easyetz.view.MText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/Home.my"
+                android:textColor="@color/zt_black"
+                android:textSize="@dimen/zt_18sp"
+                app:customTFont="CircularPro-Bold.otf" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/my_wallet_manage"
+            android:layout_width="match_parent"
+            android:layout_height="66dp">
+
+            <com.easyetz.view.MText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:drawableLeft="@mipmap/my_wallet_gl"
+                android:drawablePadding="10dp"
+                android:textColor="@color/zt_black"
+                android:text="@string/my.wallet.manage"
+                android:textSize="14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:src="@mipmap/ic_right_arrow" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:background="@color/line" />
+        </RelativeLayout>
+
+        <com.easyetz.view.MText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/my_xtsz"
+            android:textColor="@color/zt_black"
+            android:textSize="@dimen/zt_18sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+        <RelativeLayout
+            android:id="@+id/my_wallet_language"
+            android:layout_width="match_parent"
+            android:layout_height="66dp">
+
+            <com.easyetz.view.MText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:drawableLeft="@mipmap/my_yysz"
+                android:drawablePadding="10dp"
+                android:text="@string/my_yysz"
+                android:textColor="@color/zt_black"
+                android:textSize="14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:src="@mipmap/ic_right_arrow" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:background="@color/line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/my_wallet_node"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="@color/white">
+
+            <com.easyetz.view.MText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:drawableLeft="@mipmap/my_qhjd"
+                android:textColor="@color/zt_black"
+                android:drawablePadding="10dp"
+                android:text="@string/my_qhjd"
+                android:textSize="14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <com.easyetz.view.MText
+                android:id="@+id/current_node"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:drawableRight="@mipmap/ic_right_arrow"
+                android:ellipsize="middle"
+                android:maxWidth="200dp"
+                android:singleLine="true"
+                android:textSize="14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:background="@color/line" />
+        </RelativeLayout>
+
+        <com.easyetz.view.MText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/my_qt"
+            android:textColor="@color/zt_black"
+            android:textSize="@dimen/zt_18sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+
+        <RelativeLayout
+            android:id="@+id/my_wallet_help"
+            android:layout_width="match_parent"
+            android:layout_height="66dp">
+
+            <com.easyetz.view.MText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:drawableLeft="@mipmap/my_bzzx"
+                android:textColor="@color/zt_black"
+                android:drawablePadding="10dp"
+                android:text="@string/my_help"
+                android:textSize="14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:src="@mipmap/ic_right_arrow" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:background="@color/line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/my_wallet_about"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="@color/white">
+
+            <com.easyetz.view.MText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:drawableLeft="@mipmap/my_gywm"
+                android:textColor="@color/zt_black"
+                android:drawablePadding="10dp"
+                android:text="@string/my_gywm"
+                android:textSize="14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:src="@mipmap/ic_right_arrow" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:background="@color/line" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

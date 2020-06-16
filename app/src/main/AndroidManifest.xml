@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.easyetz">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:name=".app.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateVisible|adjustResize">
+        <meta-data
+            android:name="design_width"
+            android:value="375" />
+        <meta-data
+            android:name="design_height"
+            android:value="667" />
+
+        <activity
+            android:name=".modules.createrecovery.CreateRecoveryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".base.BaseActivity" />
+        <activity
+            android:name=".modules.main.MainActivity"
+            android:launchMode="singleTask"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.walletmanage.createwallet.CreateWallet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.walletmanage.recoverywallet.RecoveryWallet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.walletmanage.importwallet.ImportWallet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.walletmanage.selectwallettype.SelectWalletType"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.tokenmanage.TokenManageActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".service.BlockchainService"
+            android:exported="false" />
+
+        <activity
+            android:name=".modules.walletoperation.wallet.WalletActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.walletoperation.receive.ReceiveQrCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.walletsetting.WalletSetting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.walletsetting.updatePassword.UpdatePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.walletsetting.exportKeystore.ExportKeystoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.walletsetting.BackupMnemonic.MnemonicBackupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.walletsetting.BackupMnemonic.VerifyMnemonicBackupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.walletoperation.send.SendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.scanQr.ScanQRActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.main.my.about.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.main.my.displayCurrency.DisplayCurrencyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.main.my.Language.LanguageSelectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.main.my.selectnode.ETZNodeSelectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.main.my.concacts.ContactsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.dapp.DappTransaction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.main.my.concacts.ManageContactsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.main.my.wallets.WalletsManageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.WebViewActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--//英语-->
+    <!-- App name -->
+    <string name="set_pwd">Set Password</string>
+    <string name="app_name">SeekChain</string>
+
+    <string name="Home.Discovery.input.hint">Please enter a Dapp address</string>
+    <string name="create_recovery_create">Create Wallet</string>
+    <string name="create_recovery_recovery">Import Wallet</string>
+    <string name="create_wallet_fwystk2">Terms of Service and Privacy Policy</string>
+    <string name="create_wallet_fwystk1">Agreen on</string>
+    <string name="create_wallet_affirmpwd">Repeat Password</string>
+    <string name="create_wallet_inputpwd">Please enter a 6-12 bit wallet password</string>
+    <string name="create_wallet_name">Please enter Wallet Name</string>
+    <string name="create_wallet_tname">Wallet Name</string>
+    <string name="create_wallet_pwd">Password</string>
+    <string name="create_wallet_apwd">Repeat Password</string>
+
+    <string name="mnemonic_backup_title">Mnemonic</string>
+    <string name="mnemonic_backup_tips2">The mnemonic is used to restore the account. Please keep the mnemonic in order to avoid loss of assets!</string>
+    <string name="transfer_next">Go Backup</string>
+
+    <string name="load_wallet_indicator_mnemonic"> Mnemonic </string>
+    <string name="load_wallet_indicator_official">Keystore</string>
+    <string name="load_wallet_indicator_private_key">Privatekey</string>
+    <string name="load_wallet_btn">Import Wallet</string>
+    <string name="load_wallet_mnemonic_err">Mnemonic word is incorrect</string>
+    <string name="load_wallet_exist">The wallet already exists</string>
+    <string name="load_wallet_ok">Successful</string>
+    <string name="create_wallet_ok">Created successfully</string>
+    <string name="create_wallet_btn">Create Wallet</string>
+    <string name="recovery_wallet_input_mnemonic">Please use space to separate the mnemonic words</string>
+    <string name="load_wallet_by_private_key_hint"> Please enter your private key </string>
+    <string name="load_wallet_by_official_wallet_keystore_hint">Keystore text content</string>
+    <string name="about_we">About Us</string>
+    <string name="my_wallet">My wallet</string>
+    <string name="property_scan">Scan</string>
+    <string name="Button.send">Send</string>
+    <string name="Button.receive">Receive</string>
+    <string name="property_kg">Miner</string>
+    <string name="property_zc">Assets</string>
+    <string name="copy_wallet_address">Copy Wallet Address</string>
+    <string name="send_input_address">Input Receiver’s Address</string>
+    <string name="send_transfer_sum">Amount</string>
+    <string name="send_input_transfer_sum">Input Amount</string>
+    <string name="TransactionDetails.beneficiary.address">Collection address</string>
+    <string name="gas_limit_text">Gas Limit</string>
+    <string name="gas_price_text">Gas Price</string>
+    <string name="please_input">Please Input</string>
+    <string name="send_transfer_data">Data</string>
+    <string name="send_transfer_remarks">Remarks</string>
+    <string name="send_input_transfer_remarks">Please input your transfer notes</string>
+    <string name="transfer_logs">Transaction log</string>
+    <string name="transfer_ok">Transaction sent</string>
+    <string name="transfer_fail">failed</string>
+    <string name="TransactionDetails.confirming">Pending</string>
+    <string name="TransactionDetails_next">Next</string>
+    <string name="TransactionDetails_asset">Transaction Record</string>
+    <string name="TransactionDetails_ru_address">To</string>
+    <string name="TransactionDetails_fu_acc">From</string>
+    <string name="TransactionDetails_kgf">Gas Fee</string>
+    <string name="transfer_confirm">Confirm</string>
+    <string name="send_input_pwd">Input Password</string>
+    <string name="send_zhifu_pwd">Password</string>
+    <string name="send_input_zhifu_pwd">Please enter your password</string>
+    <string name="send_confirm_zhifu">Confirm</string>
+    <string name="my_xtsz">Setting</string>
+    <string name="my_yysz">Language</string>
+    <string name="my_qhjd">Networds</string>
+    <string name="my_qt">Others</string>
+    <string name="my_help">Help</string>
+    <string name="my_gywm">About Us</string>
+    <string name="updata_pwd_old">Current password</string>
+    <string name="updata_pwd_old01">Please Enter Current Password</string>
+    <string name="updata_pwd_new">New Password</string>
+    <string name="updata_pwd_new_cf">Repeat</string>
+    <string name="updata_pwd_new_cf01">Repeat Your Password</string>
+    <string name="updata_pwd_affirm">Confirm Change</string>
+    <string name="delete_wallet_fxts">Warning</string>
+    <string name="delete_wallet_fxts01">Please confirm that you have backed up your wallet private key, mnemonic or Keystore, otherwise you will not be able to recover after deleting the wallet.</string>
+    <string name="delete_wallet_btn">Confirm</string>
+    <string name="Chinese">China</string>
+    <string name="English">English</string>
+    <string name="Korean">Korean</string>
+    <string name="Confirmation.feeLabel">Gas Fee</string>
+    <!-- Invalid address alert title -->
+    <string name="Send.invalidAddressTitle">Invalid address</string>
+
+    <string name="url_error">Request link does not exist</string>
+    <string name="socket_time_out">The request timed out, please try again later</string>
+    <string name="socket_exception">Network exception, please check and try again</string>
+    <string name="error_parse">Data parsing exception, please try again later.</string>
+
+
+    <string name="Home.my">Profile</string>
+    <string name="Home.wallet">Wallet</string>
+    <string name="Home.Discovery">Discover</string>
+    <string name="Home.Total.assets">Total Assets</string>
+
+    <string name="create_wallet_name_repeat_tips">Duplicate Wallet Name</string>
+    <string name="create_wallet_name_input_tips">Please Input Wallet Name</string>
+    <string name="create_wallet_pwd_input_tips">Password cannot be empty or less than 6 digits</string>
+    <string name="create_wallet_pwd_confirm_input_tips">Password inconsistency</string>
+    <string name="recovery_wallet_mnemonic">Error in the number of mnemonic words</string>
+    <string name="wallet_exist">The wallet already exists</string>
+    <string name="load_wallet_by_official_wallet_keystore_input_tip">Invalid keystore file or wrong password</string>
+    <string name="Button.cancel">Cancel</string>
+    <string name="Alerts.copiedAddressesHeader">Copied</string>
+    <string name="Wallet.set.pwd">Change Passwor</string>
+    <string name="Wallet.set.updata">Change nickname</string>
+    <string name="Wallet.set.done">Done</string>
+    <string name="Wallet.set.nick.fail">Update wallet nickname failed ..</string>
+    <string name="Wallet.set.mnemonic">Backup mnemonic</string>
+    <string name="Wallet.set.keystore">Export Keystore</string>
+    <string name="Wallet.set.privaekey">Export Privatekey</string>
+    <string name="done">Done</string>
+
+    <string name="modify_password_alert1">Please enter a new 6-12 digit password</string>
+    <string name="modify_password_alert2">Repeat Your Password</string>
+    <string name="modify_password_alert3">Please Enter Current Passwor</string>
+    <string name="modify_password_alert4">Current password error</string>
+    <string name="modify_password_alert5">Password inconsistency</string>
+    <string name="modify_password_success">Succeed</string>
+    <string name="modify_password_fail">Failed</string>
+    <string name="wallet_detail_wrong_pwd">Password error</string>
+    <string name="deriving_wallet_tip">Exporting…</string>
+
+    <string name="input_pwd_dialog_tip">Enter Your Password</string>
+    <string name="input_pwd_delete_tip">Please be careful, this operation cannot be undone</string>
+    <string name="input_pwd_dialog_confirm">Confirm</string>
+
+    <string name="derive_private_key_alert">Security warning: private key is not encrypted, export is risky, it is recommended to use mnemonic and keystore for backup</string>
+    <string name="derive_private_key_copy_btn">Copy</string>
+    <string name="derive_private_key_already_copy_btn">Copied</string>
+
+    <string name="mnemonic_backup_alert_title">Do not take screenshots</string>
+    <string name="mnemonic_backup_alert_tips">If someone gets your mnemonic, they will get your assets directly! Please copy the mnemonic and store it in a safe place。</string>
+    <string name="mnemonic_backup_alert_btn">Understand</string>
+
+    <string name="derive_keystore_copy">Copy Keystore</string>
+    <string name="derive_keystore_title">Export Keystore</string>
+
+    <string name="mnemonic_backup_tips1">Copy your wallet mnemonic</string>
+
+    <string name="verify_backup_title">Back up mnemonic words</string>
+    <string name="verify_backup_tip1">Confirm your mnemonic</string>
+    <string name="verify_backup_tip2"> Please choose mnemonic words in order and make sure your mnemonic was correct written</string>
+    <string name="verify_backup_failed">Please examine your mnemonic words.
+</string>
+
+    <!-- Send money amount label -->
+    <string name="Send.amountLabel">Amount</string>
+    <string name="Send.cameraUnavailabeMessage.android">Allow access to the camera in Settings > apply > EasyETZ > permissions</string>
+    <string name="Send.cameraUnavailabeTitle.android">Your permission is required to access the camera</string>
+    <string name="Send.cameraunavailableMessage"> Your permission is required to access the camera</string>
+    <string name="Send.cameraUnavailableTitle"> Your permission is required to access the camera</string>
+    <string name="Send.containsAddress">The target is your own address.</string>
+    <string name="Send.creatTransactionError">Unable to create deal</string>
+    <string name="Send.descriptionLabel">Remarks</string>
+    <string name="Send.descriptionLabelData">Data</string>
+    <string name="Send.emptyPasteboard">The pasting board is empty</string>
+    <string name="Send.ethSendSelf">Can’t send it to yourself</string>
+    <string name="Send.noAddress">Input Receiver’s Address</string>
+    <string name="Send.noAmount">Input Amount</string>
+    <string name="Send.pasteLabel">Paste</string>
+    <string name="Send.scanLabel">Scan</string>
+    <string name="Send.sendLabel">Send</string>
+    <string name="Send.title">Send</string>
+    <string name="Send.toLabel">To</string>
+    <string name="AccessibilityLabels.close">Close</string>
+    <string name="JailbreakWarnings.title">Warning</string>
+    <string name="JailbreakWarnings.wipe">Delete</string>
+    <string name="WipeWallet.failedTitle">Failure</string>
+    <string name="Alert.error">Error</string>
+    <string name="Confirmation.amountLabel">Amount：</string>
+    <string name="VerifyPin.touchIdMessage">Authorize this deal</string>
+    <string name="send.amount.hint">Input  Amount</string>
+    <string name="TransactionDetails.title">Transaction Record </string>
+    <string name="TransactionDetails.titleReceived">Received</string>
+    <string name="TransactionDetails.titleReceiving">Receiving</string>
+    <string name="TransactionDetails.titleSending">Pending</string>
+    <string name="TransactionDetails.titleSent">Succeed</string>
+
+    <string name="Confirmation.to">To</string>
+    <string name="TransactionDetails.addressViaHeader">Through</string>
+    <string name="Receive.copied">Copied</string>
+    <string name="Receive.not.sufficient.funds">Insufficient funds.</string>
+    <string name="Settings.about">About Us</string>
+    <string name="my.wallet.manage">Manage Wallets</string>
+    <string name="my.wallet.language">Language</string>
+
+    <string name="Home.Discovery.error.url">Please enter the correct address.</string>
+    <string name="My.ETZ.node.other">Networds</string>
+    <string name="My.ETZ.node.hongkong">China</string>
+    <string name="My.ETZ.node.usa">USA</string>
+    <string name="My.ETZ.node.singapore">Singapore</string>
+    <string name="del.wallet">Delete Wallet</string>
+    <string name="gas_evaluation">Gas evaluation....</string>
+    <string name="is_submitting">is submitting....</string>
+
+
+    <string name="current.version">current version:</string>
+    <string name="update.content">update content:</string>
+    <string name="download.latest.version">new version update:</string>
+    <string name="staytuned">In development....., stay tuned</string>
+
+    <string name="Import.confirm">Actual arrival: %1$s SEEK\n fee: %2$s SEEK</string>
+    <string name="Import.confirm.dapp">Actual arrival: %1$s SEEK\n fee: %2$s SEEK\n Total amount: %3$s SEEK</string>
+
+    <string name="about_my_content">\u3000\u3000SEEKCHAIN is a new type of consensus mechanism using incremental combustion proof (IPOB) to transform decentralized, low-cost storage resources into a decentralized and trusted financial collaboration platform. At the same time, it is also a Turing complete smart contract platform that supports anonymous protocols, Defi solution sets, ledger purification protocols, privatized transactions, and autonomous financial organizations.</string>
+    <string name="About.footer">Produced by the global SEEKCHAIN team.Version % 1 $s</string>
+    <string name="About.title">About us</string>
+    <string name="About_updata">Check the update</string>
+
+</resources>

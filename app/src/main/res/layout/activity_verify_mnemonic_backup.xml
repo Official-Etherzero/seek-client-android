@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_project" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:background="@color/line" />
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:text="@string/verify_backup_tip1"-->
+    <!--android:textColor="@color/discovery_application_text_color"-->
+    <!--android:textSize="16sp" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/verify_backup_tip2"
+        android:textColor="@color/property_ico_worth_color"
+        android:textSize="13sp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_selected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/mnemonic_backup_bg"
+        android:minHeight="50dp"
+        android:overScrollMode="never"
+        android:padding="15dp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_mnemonic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="25dp"
+        android:overScrollMode="never" />
+
+    <TextView
+        android:id="@+id/rv_errer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/verify_backup_failed"
+        android:textColor="@color/zt_red0"
+        android:textSize="13sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/create_wallet_enable_btn_bg_shape"
+        android:gravity="center"
+        android:text="@string/input_pwd_dialog_confirm"
+        android:textColor="@color/white"
+        android:textSize="@dimen/zt_14sp" />
+</LinearLayout>

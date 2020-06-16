@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".modules.dapp.DappTransaction">
+
+    <include layout="@layout/title_project" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="22dp"
+        android:paddingStart="22dp">
+
+        <com.easyetz.view.MText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:maxLines="1"
+            android:text="@string/TransactionDetails.beneficiary.address"
+            android:textColor="@color/zt_black_2"
+            android:textSize="@dimen/zt_14sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+        <com.easyetz.view.MText
+            android:id="@+id/dapp_to"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:background="@android:color/transparent"
+            android:ellipsize="middle"
+            android:textColor="@color/black_trans"
+            android:textSize="@dimen/zt_14sp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginStart="22dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="22dp"
+        android:paddingStart="22dp">
+
+        <com.easyetz.view.MText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:maxLines="1"
+            android:text="@string/Send.amountLabel"
+            android:textColor="@color/zt_black_2"
+            android:textSize="@dimen/zt_14sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+        <com.easyetz.view.MText
+            android:id="@+id/dapp_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:background="@android:color/transparent"
+            android:maxLines="1"
+            android:textColor="@color/black_trans"
+            android:textSize="@dimen/zt_14sp"
+
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginStart="22dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="22dp"
+        android:paddingStart="22dp">
+
+        <com.easyetz.view.MText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:maxLines="1"
+            android:text="@string/gas_price_text"
+            android:textColor="@color/zt_black_2"
+            android:textSize="@dimen/zt_14sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+        <com.easyetz.view.MEdit
+            android:id="@+id/dapp_gasp"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="2.3"
+            android:background="@android:color/transparent"
+            android:digits="1234567890."
+            android:gravity="center_vertical"
+            android:hint="@string/gas_price_text"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textColor="@color/black_trans"
+            android:textColorHint="@color/hint_color"
+            android:textSize="@dimen/zt_14sp"
+
+            />
+
+        <com.easyetz.view.MText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="0.7"
+            android:gravity="right"
+            android:text="Gwei"
+            android:textColor="@color/zt_black_2"
+            android:textSize="@dimen/zt_14sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginStart="22dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="22dp"
+        android:paddingStart="22dp">
+
+        <com.easyetz.view.MText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:maxLines="1"
+            android:text="@string/gas_limit_text"
+            android:textColor="@color/black_trans"
+            android:textSize="@dimen/zt_14sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+        <com.easyetz.view.MEdit
+            android:id="@+id/dapp_gasl"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="3"
+            android:background="@android:color/transparent"
+            android:digits="1234567890."
+            android:gravity="center_vertical"
+            android:hint="@string/gas_limit_text"
+            android:inputType="textPersonName"
+            android:maxLength="250"
+            android:textColor="@color/black_trans"
+            android:textColorHint="@color/hint_color"
+            android:textSize="@dimen/zt_14sp"
+
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginStart="22dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:paddingEnd="22dp"
+        android:paddingStart="22dp"
+        android:paddingTop="15dp">
+
+        <com.easyetz.view.MText
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/send_transfer_data"
+            android:textColor="@color/zt_black_2"
+            android:textSize="@dimen/zt_14sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+        <com.easyetz.view.MText
+            android:id="@+id/dapp_data"
+            android:layout_width="236dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/mnemonic_backup_bg"
+            android:gravity="top"
+            android:padding="5dp"
+            android:textColor="@color/black_trans"
+            android:textSize="@dimen/zt_14sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="22dp"
+        android:paddingStart="22dp">
+
+        <com.easyetz.view.MText
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/send_transfer_remarks"
+            android:textColor="@color/zt_black_2"
+            android:textSize="@dimen/zt_14sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+        <EditText
+            android:id="@+id/comment_edit"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="3"
+            android:background="@null"
+            android:hint="@string/send_input_transfer_remarks"
+            android:lines="1"
+            android:textColor="@color/black_trans"
+            android:textColorHint="@color/hint_color"
+            android:textSize="@dimen/zt_14sp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginStart="22dp"
+        android:background="@color/line" />
+
+    <TextView
+        android:id="@+id/dapp_send_button"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/create_wallet_enable_btn_bg_shape"
+        android:gravity="center"
+        android:text="@string/TransactionDetails_next"
+        android:textColor="@color/white"
+        android:textSize="@dimen/zt_14sp" />
+
+</LinearLayout>

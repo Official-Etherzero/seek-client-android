@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_transfer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_project" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="22dp"
+        android:paddingStart="22dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.easyetz.view.MText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/TransactionDetails.beneficiary.address"
+                android:textColor="@color/zt_black_2"
+                android:textSize="@dimen/zt_14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <EditText
+                android:id="@+id/address_edit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:background="@null"
+                android:hint="@string/send_input_address"
+                android:inputType="textMultiLine"
+                android:textColor="@color/black_trans"
+                android:textColorHint="@color/hint_color"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/scan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="5dp"
+                android:src="@mipmap/send_scan_icon" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.75dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.easyetz.view.MText
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/send_transfer_sum"
+                android:textColor="@color/zt_black_2"
+                android:textSize="@dimen/zt_14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <EditText
+                android:id="@+id/amount_edit"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="3"
+                android:background="@null"
+                android:ems="10"
+                android:hint="@string/send_input_transfer_sum"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:textColor="@color/black_trans"
+                android:textColorHint="@color/hint_color"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.75dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.easyetz.view.MText
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/gas_price_text"
+                android:textColor="@color/zt_black_2"
+                android:textSize="@dimen/zt_14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <EditText
+                android:id="@+id/gas_price"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2.3"
+                android:background="@null"
+                android:hint="@string/please_input"
+                android:inputType="number"
+                android:lines="1"
+                android:textColor="@color/black_trans"
+                android:textColorHint="@color/hint_color"
+                android:textSize="13sp" />
+
+            <com.easyetz.view.MText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:gravity="right"
+                android:text="Gwei"
+                android:textColor="@color/zt_black_2"
+                android:textSize="@dimen/zt_14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.75dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.easyetz.view.MText
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/gas_limit_text"
+                android:textColor="@color/zt_black_2"
+                android:textSize="@dimen/zt_14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <EditText
+                android:id="@+id/gas_limit"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="3"
+                android:background="@null"
+                android:hint="@string/please_input"
+                android:inputType="number"
+                android:lines="1"
+                android:textColor="@color/black_trans"
+                android:textColorHint="@color/hint_color"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.75dp"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
+
+            <com.easyetz.view.MText
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/send_transfer_data"
+                android:textColor="@color/zt_black_2"
+                android:textSize="@dimen/zt_14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <EditText
+                android:id="@+id/comment_data"
+                android:layout_width="236dp"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/mnemonic_backup_bg"
+                android:gravity="top"
+                android:hint="@string/please_input"
+                android:inputType="textMultiLine"
+                android:padding="5dp"
+                android:textColor="@color/black_trans"
+                android:textColorHint="@color/hint_color"
+                android:textSize="13sp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.easyetz.view.MText
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/send_transfer_remarks"
+                android:textColor="@color/zt_black_2"
+                android:textSize="@dimen/zt_14sp"
+                app:customTFont="CircularPro-Bold.otf" />
+
+            <EditText
+                android:id="@+id/comment_edit"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="3"
+                android:background="@null"
+                android:hint="@string/send_input_transfer_remarks"
+                android:lines="1"
+                android:textColor="@color/black_trans"
+                android:textColorHint="@color/hint_color"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.75dp"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/btn_transfer"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="31dp"
+            android:background="@drawable/create_wallet_btn_bg_selector"
+            android:gravity="center"
+            android:text="@string/TransactionDetails_next"
+            android:textColor="@color/white"
+            android:textSize="@dimen/zt_14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

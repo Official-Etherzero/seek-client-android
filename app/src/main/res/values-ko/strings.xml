@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 韩语 -->
+    <string name="set_pwd">비밀번호 설정하기</string>
+    <string name="app_name">SeekChain</string>
+
+    <string name="Home.Discovery.input.hint">Dapp주소를 입력하세요</string>
+    <string name="create_recovery_create">지갑 만들기</string>
+    <string name="create_recovery_recovery">지갑 불러오기</string>
+    <string name="create_wallet_fwystk2">서비스 및 개인정보보호정책</string>
+    <string name="create_wallet_fwystk1">확인하여 동의합니다</string>
+    <string name="create_wallet_affirmpwd">지갑 비밀번호를 확인하세요</string>
+    <string name="create_wallet_inputpwd">6-12 비트 지갑 비밀번호를 입력하십시오</string>
+    <string name="create_wallet_name">지갑 비고를 입력하세요</string>
+    <string name="create_wallet_tname">지갑 비고</string>
+    <string name="create_wallet_pwd">지갑 비밀번호</string>
+    <string name="create_wallet_apwd">비밀번호 재확인</string>
+
+    <string name="mnemonic_backup_title">니모닉단어</string>
+    <string name="mnemonic_backup_tips2">니모닉단어는 계정을 복구하는 데에 사용되어 자산손해을 보지 않게 잘 보관해 주세요！</string>
+    <string name="transfer_next">인증으로 가기</string>
+
+    <string name="load_wallet_indicator_mnemonic">니모닉단어</string>
+    <string name="load_wallet_indicator_official">Keystore</string>
+    <string name="load_wallet_indicator_private_key">프라이빗키</string>
+    <string name="load_wallet_btn">지갑 불러오기</string>
+    <string name="load_wallet_mnemonic_err">니모닉단어가 일치되지 않습니다</string>
+    <string name="load_wallet_exist">이미 존재된 지갑입니다</string>
+    <string name="load_wallet_ok">지갑 불러오기가 성공되었습니다</string>
+    <string name="create_wallet_ok">지갑 만들기가 성공되었습니다</string>
+    <string name="create_wallet_btn">지갑 만들기</string>
+    <string name="recovery_wallet_input_mnemonic">니모닉단어를 빈칸으로 나누어 입력하세요</string>
+    <string name="load_wallet_by_private_key_hint">프라이빗키를 입력하세요</string>
+    <string name="load_wallet_by_official_wallet_keystore_hint">keystore 내용</string>
+    <string name="about_we">소개</string>
+    <string name="my_wallet">내 지갑</string>
+    <string name="property_scan">스캔하기</string>
+    <string name="Button.send">이체</string>
+    <string name="Button.receive">입금</string>
+    <string name="property_kg">마이너</string>
+    <string name="property_zc">자산</string>
+    <string name="copy_wallet_address">지갑주소를 복사하기</string>
+    <string name="send_input_address">입금 주소를 입력하세요</string>
+    <string name="send_transfer_sum">이체 금액</string>
+    <string name="send_input_transfer_sum">금액을 입력하세요</string>
+    <string name="TransactionDetails.beneficiary.address">입금 주소</string>
+    <string name="gas_limit_text">Gas Limit</string>
+    <string name="gas_price_text">Gas Price</string>
+    <string name="please_input">입력하세요</string>
+    <string name="send_transfer_data">거래 데이터</string>
+    <string name="send_transfer_remarks">비고</string>
+    <string name="send_input_transfer_remarks">이체 비고를 입력하세요</string>
+    <string name="transfer_logs">거래 기록</string>
+    <string name="transfer_ok">거래가 전송되었습니다</string>
+    <string name="transfer_fail">거래 실패</string>
+    <string name="TransactionDetails.confirming">거래가 진행되고 있습니다</string>
+    <string name="TransactionDetails_next">다음</string>
+    <string name="TransactionDetails_asset">거래 상세 정보</string>
+    <string name="TransactionDetails_ru_address">이체할 주소</string>
+    <string name="TransactionDetails_fu_acc">지급될 계정</string>
+    <string name="TransactionDetails_kgf">마이너 비용</string>
+    <string name="transfer_confirm">이체 확인</string>
+    <string name="send_input_pwd">비밀번호를 입력하세요</string>
+    <string name="send_zhifu_pwd">비밀번호</string>
+    <string name="send_input_zhifu_pwd">비밀번호를 입력하십시오</string>
+    <string name="send_confirm_zhifu">지불 확인</string>
+    <string name="my_xtsz">시스템 설정</string>
+    <string name="my_yysz">언어 설정</string>
+    <string name="my_qhjd">노드 설정</string>
+    <string name="my_qt">기타</string>
+    <string name="my_help">도움 센터</string>
+    <string name="my_gywm">소개</string>
+    <string name="updata_pwd_old">기존 비밀번호</string>
+    <string name="updata_pwd_old01">기존 비밀번호를 입력하세요</string>
+    <string name="updata_pwd_new">새 비밀번호</string>
+    <string name="updata_pwd_new_cf">비밀번호 재확인</string>
+    <string name="updata_pwd_new_cf01">비밀번호를 다시 입력하세요</string>
+    <string name="updata_pwd_affirm">변경하기</string>
+    <string name="delete_wallet_fxts">리스크 공지</string>
+    <string name="delete_wallet_fxts01">지갑이 삭제된 후 복구할 수 없으므로 프라이빗키, 니모닉단어 혹은 Keystore를 꼭 백업해 주시기 바랍니다.</string>
+    <string name="delete_wallet_btn">삭제 확인</string>
+    <string name="Chinese">中文</string>
+    <string name="English">English</string>
+    <string name="Korean">한국어</string>
+    <string name="Confirmation.feeLabel">네트워크 비용：</string>
+    <!-- Invalid address alert title -->
+    <string name="Send.invalidAddressTitle">무효 주소</string>
+
+    <string name="url_error">해당 URL주소가 존재되지 않습니다~</string>
+    <string name="socket_time_out">시간이 초과되어 잠시후 다시 시도해 보세요~</string>
+    <string name="socket_exception">네트워크 오류가 생겨서 검수 후 다시 시도해 보세요 ~</string>
+    <string name="error_parse">데이터 파싱에 오류가 생겨서 잠시후 다시 시도해 보세요 </string>
+
+
+    <string name="Home.my">내</string>
+    <string name="Home.wallet">지갑</string>
+    <string name="Home.Discovery">검색</string>
+    <string name="Home.Total.assets">총자산</string>
+
+    <string name="create_wallet_name_repeat_tips">지갑 이름이 중복되었습니다</string>
+    <string name="create_wallet_name_input_tips">지갑 이름을 입력하세요</string>
+    <string name="create_wallet_pwd_input_tips">비밀번호는 비어 있거나 6 자리 미만일 수 없습니다</string>
+    <string name="create_wallet_pwd_confirm_input_tips">비밀번호가 일치되지 않아서 다시 입력하세요</string>
+    <string name="recovery_wallet_mnemonic">니모닉단어가 틀렸습니다, 입력한 단어를 다시 확인하세요</string>
+    <string name="wallet_exist">이미 존재된 지갑입니다</string>
+    <string name="load_wallet_by_official_wallet_keystore_input_tip">keystore파일이 무효되거나 비밀번호가 틀렸습니다</string>
+    <string name="Button.cancel">취소</string>
+    <string name="Alerts.copiedAddressesHeader">주소가 복사되었습니다</string>
+    <string name="Wallet.set.pwd">비밀번호 변경하기</string>
+    <string name="Wallet.set.updata">닉네임 변경</string>
+    <string name="Wallet.set.done">완성</string>
+    <string name="Wallet.set.nick.fail">월렛 닉네임 업데이트 실패 ..</string>
+    <string name="Wallet.set.mnemonic">니모닉단어 백업하기</string>
+    <string name="Wallet.set.keystore">Keystore 백업하기</string>
+    <string name="Wallet.set.privaekey">프라이빗 백업하기</string>
+    <string name="done">완성</string>
+
+    <string name="modify_password_alert1">새로운 6-12 자리 비밀번호를 입력하십시오</string>
+    <string name="modify_password_alert2">비밀번호를 다시 입력하세요</string>
+    <string name="modify_password_alert3">기존 비밀번호를 입력하세요</string>
+    <string name="modify_password_alert4">기존 비밀번호가 틀렸습니다</string>
+    <string name="modify_password_alert5">두번 입력하신 비밀번호가 일치되지 않습니다</string>
+    <string name="modify_password_success">비밀번호 변경하기가 성공되었습니다</string>
+    <string name="modify_password_fail">비밀번호 변경하기가 실패되었습니다</string>
+    <string name="wallet_detail_wrong_pwd">비밀번호가 틀렸습니다</string>
+    <string name="deriving_wallet_tip">지갑 백업 중…</string>
+
+    <string name="input_pwd_dialog_tip">비밀번호를 입력하세요</string>
+    <string name="input_pwd_delete_tip">해당 프로세스는 취소할 수 없어서 주의하시기 바랍니다</string>
+    <string name="input_pwd_dialog_confirm">확인</string>
+
+    <string name="derive_private_key_alert">보안 경고: 프라이빗키는 암호화처리되지 않아서 백업 과정에 리스크가 있습니다, 니모닉단어와 keystore로 백업 진행을 추천해 드립니다</string>
+    <string name="derive_private_key_copy_btn">복사하기</string>
+    <string name="derive_private_key_already_copy_btn">복사되었습니다</string>
+
+    <string name="mnemonic_backup_alert_title">캡처하시지 마세요</string>
+    <string name="mnemonic_backup_alert_tips">니모닉단어가 유출되면 자산이 도용될 수 있으니 니모닉단어를 기록하신 후 안전한 곳에서 잘 보관하시기 바랍니다.  </string>
+    <string name="mnemonic_backup_alert_btn">알겠습니다</string>
+
+    <string name="derive_keystore_copy">Keystore복사되었습니다</string>
+    <string name="derive_keystore_title">Keystore백업하기</string>
+
+    <string name="mnemonic_backup_tips1">지갑 니모닉단어를 기록하세요</string>
+
+    <string name="verify_backup_title">니모닉단어를 인증하세요</string>
+    <string name="verify_backup_tip1">지갑의 니모닉단어를 확인하세요</string>
+    <string name="verify_backup_tip2">순서대로 니모닉단어를 선택하여 백업을 컨펌하세요.</string>
+    <string name="verify_backup_failed">인증이 실패되었고 니모닉단어를 다시 확인하세요</string>
+
+    <!-- Send money amount label -->
+    <string name="Send.amountLabel">금액</string>
+    <string name="Send.cameraUnavailabeMessage.android">“설정”&gt;“애플리케이션”&gt;“EasyETZ”&gt;“권한”에서 카메라 접근하기를 허용하세요</string>
+    <string name="Send.cameraUnavailabeTitle.android">카메라 접근할 권한이 없습니다</string>
+    <string name="Send.cameraunavailableMessage">“설정”에서 카메라 접근하기를 허용하세요。</string>
+    <string name="Send.cameraUnavailableTitle">카메라에 접근하지 못합니다</string>
+    <string name="Send.containsAddress">목표주소가 사용자의 개인 주소라 자신에게 이체하실 수 없습니다</string>
+    <string name="Send.creatTransactionError">거래가 실행되지 못합니다</string>
+    <string name="Send.descriptionLabel">메모</string>
+    <string name="Send.descriptionLabelData">거래 데이터(선택 가능)</string>
+    <string name="Send.emptyPasteboard">복사가 실패되었습니다</string>
+    <string name="Send.ethSendSelf">자신에게 이체하실 수 없습니다</string>
+    <string name="Send.noAddress">수신자 주소를 입력하세요.</string>
+    <string name="Send.noAmount">이체 금액을 입력하세요.</string>
+    <string name="Send.pasteLabel">붙여놓기</string>
+    <string name="Send.scanLabel">스캔</string>
+    <string name="Send.sendLabel">이체</string>
+    <string name="Send.title">이체</string>
+    <string name="Send.toLabel">로</string>
+    <string name="AccessibilityLabels.close">끄기</string>
+    <string name="JailbreakWarnings.title">경고</string>
+    <string name="JailbreakWarnings.wipe">삭제</string>
+    <string name="WipeWallet.failedTitle">실패</string>
+    <string name="Alert.error">오류</string>
+    <string name="Confirmation.amountLabel">이체 금액：</string>
+    <string name="VerifyPin.touchIdMessage">해당 거래에 권한을 부여합니다</string>
+    <string name="send.amount.hint">이체나갈 금액을 입력하세요</string>
+    <string name="TransactionDetails.title">거래 상세 정보</string>
+    <string name="TransactionDetails.titleReceived">접수되었습니다</string>
+    <string name="TransactionDetails.titleReceiving">접수받고 있습니다</string>
+    <string name="TransactionDetails.titleSending">이체를 진행하고 있습니다</string>
+    <string name="TransactionDetails.titleSent">이체가 완료되었습니다</string>
+
+    <string name="Confirmation.to">로</string>
+    <string name="TransactionDetails.addressViaHeader">통과되었습니다</string>
+    <string name="Receive.copied">복사가 성공되었습니다</string>
+    <string name="Receive.not.sufficient.funds">잔액이 부족합니다</string>
+    <string name="Settings.about">관련</string>
+    <string name="my.wallet.manage">지갑 관리</string>
+    <string name="my.wallet.language">언어 설정</string>
+
+    <string name="Home.Discovery.error.url">정확한 주소를 입력하세요....</string>
+    <string name="My.ETZ.node.other">선택 가능한 노드</string>
+    <string name="My.ETZ.node.hongkong">중국</string>
+    <string name="My.ETZ.node.usa">미국</string>
+    <string name="My.ETZ.node.singapore">싱가포르</string>
+    <string name="del.wallet">지갑 삭제</string>
+    <string name="gas_evaluation">Gas 평가 ....</string>
+    <string name="is_submitting">제출 중 ....</string>
+
+    <string name="current.version">현재 버전 :</string>
+    <string name="update.content">내용 업데이트 :</string>
+    <string name="download.latest.version">버전 업데이트 :</string>
+    <string name="staytuned">개발 중 ..... 계속 지켜봐 주시기 바랍니다</string>
+
+    <string name="Import.confirm">실제 도착 시간 : % 1 $ s SEEK \ n 수수료 : % 2 $ s SEEK</string>
+    <string name="Import.confirm.dapp">실제 도착 시간 : % 1 $ s SEEK \ n 수수료 : % 2 $ s SEEK \ n 총 금액 : % 3 $ s SEEK</string>
+
+    <string name="about_my_content">\u3000\u3000SEEKCHAIN은 IPOB (증분 연소 증명)를 사용하여 분산 된 저비용 스토리지 리소스를 분산되고 신뢰할 수있는 금융 협업 플랫폼으로 변환하는 새로운 유형의 합의 메커니즘입니다. 동시에 익명 프로토콜, Defi 솔루션 세트, 원장 정제 프로토콜, 민영화 된 거래 및 자율 금융 기관을 지원하는 Turing 완전한 스마트 계약 플랫폼이기도합니다.</string>
+    <string name="About.footer">전 세계 SEEKCHAIN 팀이 제작합니다.버전 %1$s</string>
+    <string name="About.title">우리가 어떻게</string>
+    <string name="About_updata">업데이트 확인</string>
+</resources>

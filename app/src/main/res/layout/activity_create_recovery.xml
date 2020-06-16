@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg"
+    tools:context=".modules.createrecovery.CreateRecoveryActivity">
+
+    <ImageView
+        android:id="@+id/BRText"
+        android:layout_width="158dp"
+        android:layout_height="94dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="104dp"
+        android:src="@mipmap/seek_logo_white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_new_wallet"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginStart="22dp"
+        android:text="@string/create_recovery_create"
+        android:textColor="@color/zt_lu"
+        android:textSize="15sp"
+        android:background="@drawable/bg_white"
+        app:layout_constraintBottom_toTopOf="@+id/button_recover_wallet"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:id="@+id/button_recover_wallet"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginStart="22dp"
+        android:text="@string/create_recovery_recovery"
+        android:textColor="@color/zt_lu"
+        android:textSize="15sp"
+        android:background="@drawable/bg_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@mipmap/login_about"
+        android:textSize="@dimen/zt_13sp"
+        android:textColor="@color/white"
+        android:text="@string/about_we"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

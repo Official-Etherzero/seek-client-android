@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SeekChain</string>
+
+    <string name="Home.Discovery.input.hint">请输入Dapp地址</string>
+
+    <string name="create_wallet_name_hint">钱包名称</string>
+    <string name="create_wallet_pwd_hint">密码</string>
+    <string name="create_wallet_pwd_again_hint">重复密码</string>
+    <string name="create_wallet_pwd_reminder_info_hint">密码提示信息(可不填)</string>
+
+    <string name="load_wallet_by_official_wallet_keystore_tip">直接复制粘贴以太坊官方钱包keystore文件内容至输入框。或者通过生成keystore内容的二维码，扫描录入。</string>
+    <string name="load_wallet_by_official_wallet_help">什么是keystore？</string>
+
+
+    <string name="load_wallet_by_private_key_input_tip">无效的私钥</string>
+    <string name="load_wallet_by_private_key_help">什么是私钥？</string>
+
+    <string name="Account.exchangeRate">%1$s / %2$s</string>
+
+    <string name="Max.power">最大能量</string>
+    <string name="Available.power">可用能量</string>
+    <string name="Account.balance">余额</string>
+    <string name="Search.complete">完成</string>
+    <!-- Pending filter label -->
+    <string name="Search.all">全部</string>
+    <!-- Received filter label -->
+    <string name="Search.received">已收款</string>
+    <!-- Sent filter label -->
+    <string name="Search.sent">已转账</string>
+
+    <string name="Alert.noInternet">未发现互联网连接。检查您的连接并重试。</string>
+    <!-- Syncing view syncing state header text -->
+    <string name="SyncingView.syncing">同步中</string>
+
+    <!-- send button -->
+    <string name="Transaction.sentTo">已转账至 %1$s</string>
+    <string name="TransactionDetails.receivedVia">已通过 %1$s 接收</string>
+    <string name="Transaction.sendingTo">正在转账至 %1$s</string>
+    <string name="TransactionDetails.receivingVia">正在通过 %1$s 接收</string>
+    <string name="Receive.share">分享</string>
+    <string name="Receive.copy">复制</string>
+    <string name="Receive.request">申请金额</string>
+    <string name="Receive.receive.code">收款码</string>
+    <string name="QRUtils.ShareTitle">Share Address</string>
+    <string name="Wallet.set.title">管理</string>
+
+
+    <string name="derive_keystore_tip_title">离线保存</string>
+    <string name="derive_keystore_tip">请复制粘贴Keystore文件到安全、离线的地方保存。切勿保存至邮箱、记事本、网盘、聊天工具等，非常危险</string>
+    <string name="derive_keystore_tip3">如需在线保存，则建议使用安全等级更高的 1Password 等密码保管软件保存 Keystore。</string>
+    <string name="derive_keystore_tip4">二维码禁止保存、截图、以及拍照、仅供用户在安全环境下直接扫描来方便的导入钱包。</string>
+    <string name="derive_keystore_tip5">请在确保四周无人及无摄像头的情况下使用。二维码一旦被人获取将造成不可挽回的资产损失。</string>
+    <string name="derive_keystore_tip_title2">请勿使用网络传输</string>
+    <string name="derive_keystore_tip_title3">密码保险箱保存</string>
+    <string name="derive_keystore_tip_title4">仅供直接扫描</string>
+    <string name="derive_keystore_tip_title5">在安全环境下使用</string>
+
+
+    <string name="Send.balance">余额：%1$s</string>
+
+    <string name="Send.fee">网络费：%1$s</string>
+    <string name="Send.identityNotCertified">收款人身份未经认证。</string>
+    <string name="Send.insufficientFunds">资金不足</string>
+    <string name="Send.insufficientGasMessage">您的钱包里必须至少有 %1$s 才能够转让此种类型的代币</string>
+    <string name="Send.insufficientGasTitle">以太零余额不足</string>
+    <string name="Send.invalidAddressMessage">目标地址不是有效的%1$s地址。</string>
+    <string name="Send.invalidAddressOnPasteboard">粘贴板中没有有效的比特币地址</string>
+    <string name="Send.isRescanning">完全扫描期间转账功能已被禁用。</string>
+    <string name="Send.legacyAddressWarning">警告：这是已停用的比特币地址。您确定要向这个地址转账比特币现金吗？</string>
+    <string name="Send.loadingRequest">加载请求中</string>
+    <string name="Send.nilFeeError">保留帐户资金0.01ETZ。</string>
+    <string name="Send.noFeesError">正在下载网络费状态。请重试。</string>
+    <string name="Send.publishTransactionError">无法发布交易。</string>
+    <string name="Send.remoteRequestError">无法加载支付请求</string>
+
+
+    <string name="Send.UsedAddress.firstLine">比特币地址仅供一次性使用。</string>
+    <string name="Send.UsedAddress.secondLIne">重复使用会削弱您和收件人的隐私，如果收件人不直接控制地址，可能会导致损失。</string>
+    <string name="Send.UsedAddress.title">地址已被使用</string>
+    <string name="advanced_options">高级选项</string>
+
+
+    <string name="TransactionDetails.commentsPlaceholder">添加备忘录...</string>
+    <string name="TransactionDetails.titleFailed">隐藏详细信息</string>
+    <string name="TransactionDetails.showDetails">显示详细信息</string>
+    <string name="TransactionDetails.received">已接收 %1$s</string>
+    <string name="TransactionDetails.receivedAmountDescription">已收款 <b>%1$s</b></string>
+    <string name="TransactionDetails.receivedFrom">已接收，来自 %1$s</string>
+    <string name="TransactionDetails.receivingFrom">正在接收，来自 %1$s</string>
+    <string name="TransactionDetails.sent">已转账 %1$s</string>
+    <string name="TransactionDetails.sentAmountDescription">已转账 <b>%1$s</b></string>
+    <string name="TransactionDetails.startingBalanceHeader">起始余额</string>
+    <string name="TransactionDetails.statusHeader">状态</string>
+
+    <string name="TransactionDetails.titleInternal">内部</string>
+
+    <string name="TransactionDetails.to">到 %1$s</string>
+    <string name="TransactionDetails.totalHeader">总计</string>
+    <string name="TransactionDetails.txHashHeader">比特币交易 ID</string>
+
+
+    <string name="Settings.currency">显示币种</string>
+    <string name="my.wallet.login">登录设置</string>
+    <string name="my.wallet.check.update">检查更新</string>
+
+
+    <string name="Dapp.dataError">无效的合约数据....</string>
+    <string name="My.contacts">常用联系人</string>
+    <string name="My.contacts.save">保存</string>
+    <string name="My.contacts.edit">编辑</string>
+    <string name="My.contacts.name">名称</string>
+    <string name="My.contacts.remarks">备注(选填)</string>
+    <string name="My.contacts.remark">备注</string>
+    <string name="My.contacts.address">地址</string>
+    <string name="My.contacts.delete">删除联系人</string>
+    <string name="My.contacts.no">暂无联系人!</string>
+    <string name="My.successfully.saved">保存成功</string>
+    <string name="My.successfully.deleted">删除成功</string>
+    <string name="My.ETZ.node.set">以太零节点</string>
+    <string name="NodeSelector.Custom.rpc">Custom RPC</string>
+    <string name="NodeSelector.etzenterBody">输入节点 IP 地址和端口（可选）\n确保RPC chianId=90</string>
+    <string name="NodeSelector.link.dead">RPC 链接失败</string>
+    <string name="NodeSelector.error.node">请输入正确的节点例如“http://13.211.229.106:9646 or https://sg.etznumberone.com:443”</string>
+    <string name="NodeSelector.del.node">删除节点</string>
+    <string name="NodeSelector.del.noderpc">长按 Custom RPC 移除</string>
+
+    <string name="RecoverWallet.done">完成</string>
+    <string name="BCH.noAddressError">请输入地址</string>
+    <string name="NodeSelector.nodeLabel">当前主节点</string>
+    <string name="NodeSelector.statusLabel">节点连接状态</string>
+    <string name="Button.ok">好</string>
+    <string name="NodeSelector.enterTitle">输入节点</string>
+    <string name="TokenList.remove">移除</string>
+
+    <string name="DefaultCurrency.bitcoinLabel">比特币显示单位</string>
+    <string name="DefaultCurrency.rateLabel">汇率</string>
+    <string name="About.blog">博客</string>
+    <string name="About.privacy">隐私政策</string>
+    <string name="About.reddit">Reddit</string>
+    <string name="About.terms">使用条款</string>
+    <string name="About.twitter">Twitter</string>
+    <string name="About.walletID">EasyETZ 奖励 ID</string>
+    <string name="URLHandling.copy">拷贝</string>
+    <string name="TransactionDetails.commentsHeader">备忘录</string>
+    <string name="Button.submit">提交</string>
+
+    <string name="create_recovery_text">使用以太零最安全且最可靠的方式。</string>
+
+    <string name="create_wallet_text1">* 密码用于隐私保护和交易授权，强度非常重要</string>
+    <string name="create_wallet_text2">* EasyETZ不存储密码秘钥，也无法帮您找回，请务必牢记</string>
+    <string name="recovery_wallet_hint">助记词恢复钱包和原有设备的密码和名称可以不一样</string>
+    <string name="recovery_wallet_what_mnemonic">什么是助记词？</string>
+    <string name="me_no_set">未设置</string>
+    <string name="property_drawer_right_title">钱包</string>
+    <string name="string_add">添加</string>
+
+
+    <!--new -->
+    <!--create_wallet-->
+    <string name="set_pwd">设置密码</string>
+    <string name="create_recovery_create">创建钱包</string>
+    <string name="create_recovery_recovery">恢复钱包</string>
+    <string name="create_wallet_fwystk2">服务及隐私条款</string>
+    <string name="create_wallet_fwystk1">我已经仔细阅读并同意</string>
+    <string name="create_wallet_affirmpwd">请确认钱包密码</string>
+    <string name="create_wallet_inputpwd">请输入6-12位钱包位密码</string>
+    <string name="create_wallet_name">请输入钱包备注</string>
+    <string name="create_wallet_tname">钱包备注</string>
+    <string name="create_wallet_pwd">钱包密码</string>
+    <string name="create_wallet_apwd">确认密码</string>
+
+    <string name="mnemonic_backup_title">助记词</string>
+    <string name="mnemonic_backup_tips2">助记词用于恢复账户，请保管好助记词，以免造成资产损失！</string>
+    <string name="transfer_next">前往验证</string>
+
+    <string name="load_wallet_indicator_mnemonic">助记词</string>
+    <string name="load_wallet_indicator_official">Keystore</string>
+    <string name="load_wallet_indicator_private_key">私钥</string>
+    <string name="load_wallet_btn">导入钱包</string>
+    <string name="load_wallet_mnemonic_err">助记词错误</string>
+    <string name="load_wallet_exist">钱包已经存在</string>
+    <string name="load_wallet_ok">钱包导入成功</string>
+    <string name="create_wallet_ok">创建钱包成功</string>
+    <string name="create_wallet_btn">创建钱包</string>
+    <string name="recovery_wallet_input_mnemonic">输入助记词，以空格分隔</string>
+    <string name="load_wallet_by_private_key_hint">请输入私钥</string>
+    <string name="load_wallet_by_official_wallet_keystore_hint">keystore 文本内容</string>
+    <string name="about_we">关于我们</string>
+    <string name="my_wallet">我的钱包</string>
+    <string name="property_scan">扫一扫</string>
+    <string name="Button.send">转账</string>
+    <string name="Button.receive">收款</string>
+    <string name="property_kg">矿工</string>
+    <string name="property_zc">资产</string>
+    <string name="copy_wallet_address">复制钱包地址</string>
+    <string name="send_input_address">请输入收款地址</string>
+    <string name="send_transfer_sum">转账金额</string>
+    <string name="send_input_transfer_sum">请输入金额</string>
+    <string name="TransactionDetails.beneficiary.address">收款地址</string>
+    <string name="gas_limit_text">Gas Limit</string>
+    <string name="gas_price_text">Gas Price</string>
+    <string name="please_input">请输入</string>
+    <string name="send_transfer_data">交易数据</string>
+    <string name="send_transfer_remarks">备注</string>
+    <string name="send_input_transfer_remarks">请输入您的转账备注</string>
+    <string name="transfer_logs">交易记录</string>
+    <string name="transfer_ok">交易已发送</string>
+    <string name="transfer_fail">交易失败</string>
+    <string name="TransactionDetails.confirming">交易进行中</string>
+    <string name="TransactionDetails_next">下一步</string>
+    <string name="TransactionDetails_asset">转账详情</string>
+    <string name="TransactionDetails_ru_address">转入地址</string>
+    <string name="TransactionDetails_fu_acc">付款账户</string>
+    <string name="TransactionDetails_kgf">矿工费</string>
+    <string name="transfer_confirm">确认转账</string>
+    <string name="send_input_pwd">输入密码</string>
+    <string name="send_zhifu_pwd">密码</string>
+    <string name="send_input_zhifu_pwd">请输入密码</string>
+    <string name="send_confirm_zhifu">确认支付</string>
+    <string name="my_xtsz">系统设置</string>
+    <string name="my_yysz">语言设置</string>
+    <string name="my_qhjd">节点切换</string>
+    <string name="my_qt">其他</string>
+    <string name="my_help">帮助中心</string>
+    <string name="my_gywm">关于我们</string>
+    <string name="updata_pwd_old">旧密码</string>
+    <string name="updata_pwd_old01">请输入旧密码</string>
+    <string name="updata_pwd_new">新密码</string>
+    <string name="updata_pwd_new_cf">重复密码</string>
+    <string name="updata_pwd_new_cf01">请重复输入新密码</string>
+    <string name="updata_pwd_affirm">确认修改</string>
+    <string name="delete_wallet_fxts">风险提示</string>
+    <string name="delete_wallet_fxts01">请确认已经备份好钱包私钥、助记词或者 Keystore，否则删除钱包后将无法恢复。</string>
+    <string name="delete_wallet_btn">确认删除</string>
+    <string name="Chinese">中文</string>
+    <string name="English">English</string>
+    <string name="Korean">韩语</string>
+    <string name="Confirmation.feeLabel">网络费：</string>
+    <!-- Invalid address alert title -->
+    <string name="Send.invalidAddressTitle">无效地址</string>
+
+    <string name="url_error">请求链接不存在~</string>
+    <string name="socket_time_out">请求超时,请稍后重试~</string>
+    <string name="socket_exception">网络异常，请检查后重试~</string>
+    <string name="error_parse">数据解析异常,请稍后重试.</string>
+
+
+    <string name="Home.my">我的</string>
+    <string name="Home.wallet">钱包</string>
+    <string name="Home.Discovery">发现</string>
+    <string name="Home.Total.assets">总资产</string>
+
+    <string name="create_wallet_name_repeat_tips">钱包名称重复</string>
+    <string name="create_wallet_name_input_tips">请输入钱包名称</string>
+    <string name="create_wallet_pwd_input_tips">密码不能为空或小于6位</string>
+    <string name="create_wallet_pwd_confirm_input_tips">密码不一致，请重新输入</string>
+    <string name="recovery_wallet_mnemonic">助记词个数错误，请确认输入是否正确</string>
+    <string name="wallet_exist">钱包已经存在</string>
+    <string name="load_wallet_by_official_wallet_keystore_input_tip">keystore文件无效或密码错误</string>
+    <string name="Button.cancel">取消</string>
+    <string name="Alerts.copiedAddressesHeader">地址已复制</string>
+    <string name="Wallet.set.pwd">更改密码</string>
+    <string name="Wallet.set.updata">更改昵称</string>
+    <string name="Wallet.set.done">完成</string>
+    <string name="Wallet.set.nick.fail">更改钱包昵称失败..</string>
+    <string name="Wallet.set.mnemonic">备份助记词</string>
+    <string name="Wallet.set.keystore">导出 Keystore</string>
+    <string name="Wallet.set.privaekey">导出私钥</string>
+    <string name="done">完成</string>
+
+    <string name="modify_password_alert1">请输入6-12位新密码</string>
+    <string name="modify_password_alert2">确认新密码</string>
+    <string name="modify_password_alert3">请输入原密码</string>
+    <string name="modify_password_alert4">原密码错误</string>
+    <string name="modify_password_alert5">两次输入密码不一致</string>
+    <string name="modify_password_success">修改密码成功</string>
+    <string name="modify_password_fail">修改密码失败</string>
+    <string name="wallet_detail_wrong_pwd">密码错误</string>
+    <string name="deriving_wallet_tip">导出钱包中…</string>
+
+    <string name="input_pwd_dialog_tip">请输入密码</string>
+    <string name="input_pwd_delete_tip">请慎重，此操作无法撤销</string>
+    <string name="input_pwd_dialog_confirm">确认</string>
+
+    <string name="derive_private_key_alert">安全警告：私钥未经加密，导出存在风险，建议使用助记词和keystore进行备份</string>
+    <string name="derive_private_key_copy_btn">复制</string>
+    <string name="derive_private_key_already_copy_btn">已复制</string>
+
+    <string name="mnemonic_backup_alert_title">请勿截图</string>
+    <string name="mnemonic_backup_alert_tips">如果有人获取你的助记词将直接获取你的资产！请抄写下助记词并存放在安全的地方。</string>
+    <string name="mnemonic_backup_alert_btn">知道了</string>
+
+    <string name="derive_keystore_copy">复制 Keystore</string>
+    <string name="derive_keystore_title">导出Keystore</string>
+
+    <string name="mnemonic_backup_tips1">抄写下你的钱包助记词</string>
+
+    <string name="verify_backup_title">验证助记词</string>
+    <string name="verify_backup_tip1">确认你的钱包助记词</string>
+    <string name="verify_backup_tip2">请按顺序点击助记词，以确认你的备份助记词正确。</string>
+    <string name="verify_backup_failed">验证失败，请检查你的助记词</string>
+
+    <!-- Send money amount label -->
+    <string name="Send.amountLabel">金额</string>
+    <string name="Send.cameraUnavailabeMessage.android">在“设置”&gt;“应用”&gt;“SeekChina”&gt;“权限”中允许访问相机</string>
+    <string name="Send.cameraUnavailabeTitle.android">没有访问相机的权限</string>
+    <string name="Send.cameraunavailableMessage">前往“设置”以允许访问照相机。</string>
+    <string name="Send.cameraUnavailableTitle">不允许访问照相机</string>
+    <string name="Send.containsAddress">目标是您自己的地址。您不能转账给您自己。</string>
+    <string name="Send.creatTransactionError">无法创建交易。</string>
+    <string name="Send.descriptionLabel">备忘录</string>
+    <string name="Send.descriptionLabelData">交易数据(可选)</string>
+    <string name="Send.emptyPasteboard">粘贴板为空</string>
+    <string name="Send.ethSendSelf">不能发给自己</string>
+    <string name="Send.noAddress">请输入收款人地址。</string>
+    <string name="Send.noAmount">请输入汇款金额。</string>
+    <string name="Send.pasteLabel">粘贴</string>
+    <string name="Send.scanLabel">扫描</string>
+    <string name="Send.sendLabel">转账</string>
+    <string name="Send.title">转账</string>
+    <string name="Send.toLabel">至</string>
+    <string name="AccessibilityLabels.close">关闭</string>
+    <string name="JailbreakWarnings.title">警告</string>
+    <string name="JailbreakWarnings.wipe">删除</string>
+    <string name="WipeWallet.failedTitle">失败</string>
+    <string name="Alert.error">错误</string>
+    <string name="Confirmation.amountLabel">转账金额：</string>
+    <string name="VerifyPin.touchIdMessage">授权此交易</string>
+    <string name="send.amount.hint">请输入转出金额</string>
+    <string name="TransactionDetails.title">交易详情</string>
+    <string name="TransactionDetails.titleReceived">已接收</string>
+    <string name="TransactionDetails.titleReceiving">正在接收</string>
+    <string name="TransactionDetails.titleSending">正在转账</string>
+    <string name="TransactionDetails.titleSent">已转账</string>
+
+    <string name="Confirmation.to">至</string>
+    <string name="TransactionDetails.addressViaHeader">通过</string>
+    <string name="Receive.copied">已复制到剪贴板。</string>
+    <string name="Receive.not.sufficient.funds">余额不足。</string>
+    <string name="Settings.about">关于</string>
+    <string name="my.wallet.manage">钱包管理</string>
+    <string name="my.wallet.language">语言设置</string>
+
+    <string name="Home.Discovery.error.url">请输入正确的地址....</string>
+    <string name="My.ETZ.node.other">可选节点</string>
+    <string name="My.ETZ.node.hongkong">中国</string>
+    <string name="My.ETZ.node.usa">美国</string>
+    <string name="My.ETZ.node.singapore">新加坡</string>
+    <string name="del.wallet">删除钱包</string>
+    <string name="gas_evaluation">Gas 评估中....</string>
+    <string name="is_submitting">正在提交....</string>
+
+    <string name="current.version">当前版本:</string>
+    <string name="update.content">更新內容:</string>
+    <string name="download.latest.version">版本更新:</string>
+    <string name="staytuned">开发中.....，敬请期待</string>
+
+    <string name="Import.confirm">实际到账： %1$s SEEK\n费用: %2$s SEEK</string>
+    <string name="Import.confirm.dapp">实际到账： %1$s SEEK\n费用: %2$s SEEK\n总计金额：%3$s SEEK</string>
+
+    <string name="about_my_content">\u3000\u3000SEEKCHAIN， 是采用增量燃烧证明（IPOB）的新型共识机制，将分散的、低成本的存储资源转换为去中心化可信的金融协作平台。同时，它还是图灵完备的智能合约平台，支持匿名协议、Defi 解决方案集、账本净化协议、私有化交易，自治金融组织。</string>
+    <string name="About.footer">由全球 SEEKCHAIN 团队制作。版本%1$s</string>
+    <string name="About.title">关于我们</string>
+    <string name="About_updata">检查更新</string>
+
+</resources>

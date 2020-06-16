@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wallet_item"
+    android:layout_width="match_parent"
+    android:layout_height="123dp"
+    android:background="#F5F8FA"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/white"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp">
+
+        <ImageView
+            android:id="@+id/wallet_item_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/seek_wallet_icon"/>
+
+
+        <com.easyetz.view.MText
+            android:id="@+id/wallet_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/wallet_item_icon"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/wallet_item_icon"
+            android:text="SEEK"
+            android:textColor="@color/zt_black"
+            android:textSize="15sp"
+            app:customTFont="CircularPro-Bold.otf" />
+
+
+        <ImageView
+            android:id="@+id/wallet_manager_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_right_arrow" />
+
+        <TextView
+            android:id="@+id/wallet_item_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/wallet_item_icon"
+            android:layout_alignStart="@+id/wallet_item_name"
+            android:ellipsize="middle"
+            android:gravity="bottom"
+            android:maxWidth="180dp"
+            android:singleLine="true"
+            android:text="0xdfal;dfksa;d46565545565555"
+            android:textColor="@color/zt_hui"
+            android:textSize="11sp" />
+    </RelativeLayout>
+
+    <com.easyetz.view.MText
+        android:id="@+id/wallet_item_balance"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/white"
+        android:layout_marginTop="-10dp"
+        android:gravity="right"
+        android:paddingEnd="20dp"
+        android:text="355.23SEEK"
+        android:textColor="@color/zt_black"
+        android:textSize="@dimen/zt_15sp"
+        app:customTFont="CircularPro-Bold.otf" />
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/common_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/white"
+    android:minHeight="?attr/actionBarSize"
+    android:orientation="vertical"
+    android:theme="@style/Theme.ToolBar.Menu"
+    app:contentInsetStart="0dp">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_title_hight">
+
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/tab_title_hight"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_arrow_left" />
+
+        <TextView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/iv_back"
+            android:clickable="true"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <com.easyetz.view.MText
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="10"
+            android:singleLine="true"
+            app:customTFont="CircularPro-Bold.otf" />
+
+        <TextView
+            android:id="@+id/tv_right_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_right"
+            android:layout_width="@dimen/tab_title_hight"
+            android:layout_height="@dimen/tab_title_hight"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_launcher_round"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

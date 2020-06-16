@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="color_bg_main" format="color"/>
+    <attr name="text_one_style" format="color"/>
+    <attr name="text_two_style" format="color"/>
+    <attr name="line_style" format="color"/>
+    <attr name="item_bg" format="color"/>
+    <attr name="empty_style" format="reference"/>
+    <attr name="item_color__style" format="color"/>
+
+    <declare-styleable name="MButton">
+        <attr name="isBreadButton" format="boolean"/>
+        <attr name="buttonType" format="integer"/>
+        <attr name="customBFont" format="string"/>
+        <attr name="hasShadow" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="MText">
+        <attr name="customTFont" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="MEdit">
+        <attr name="customEFont" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="BRNotificationBar">
+        <attr name="breadText" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="LoadingView">
+        <attr name="loadding_color" format="color" />
+        <attr name="ring_style" format="enum">
+            <enum name="square" value="0" />
+            <enum name="round" value="1" />
+        </attr>
+        <attr name="progress_style" format="enum">
+            <enum name="material" value="0" />
+            <enum name="linear" value="1" />
+        </attr>
+
+        <attr name="ring_width" format="dimension" />
+        <attr name="ring_radius" format="dimension" />
+    </declare-styleable>
+
+</resources>

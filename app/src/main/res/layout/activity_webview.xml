@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/web"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/white"
+        android:paddingTop="17dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp">
+
+            <ImageView
+                android:id="@+id/web_ac_back"
+                android:layout_width="@dimen/tab_title_hight"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@mipmap/ic_arrow_left" />
+
+            <com.easyetz.view.MText
+                android:id="@+id/web_ac_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxEms="10"
+                android:singleLine="true"
+                app:customTFont="CircularPro-Bold.otf" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:background="@color/line" />
+
+    <ProgressBar
+        android:id="@+id/web_ac_pb"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2.2dip"
+        android:max="100"
+        android:progressDrawable="@drawable/pg"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/invite_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <WebView
+            android:id="@+id/web_ac_mweb"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>
