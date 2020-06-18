@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.baidu.mobstat.IIgnoreAutoTrace;
 import com.easyetz.R;
 import com.easyetz.base.BaseActivity;
 import com.easyetz.modules.normalvp.NormalPresenter;
@@ -17,7 +16,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class ExportKeystoreActivity extends BaseActivity<NormalView, NormalPresenter> implements NormalView,IIgnoreAutoTrace {
+public class ExportKeystoreActivity extends BaseActivity<NormalView, NormalPresenter> implements NormalView {
 //public class ExportKeystoreActivity extends BaseActivity<NormalView, NormalPresenter> implements NormalView {
     @BindView(R.id.tv_keystore)
     TextView tvKeystore;

@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.baidu.mobstat.IIgnoreAutoTrace;
 import com.easyetz.R;
 import com.easyetz.base.BaseActivity;
 import com.easyetz.modules.main.MainActivity;
@@ -19,7 +18,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class MnemonicBackupActivity extends BaseActivity<NormalView, NormalPresenter>implements NormalView,IIgnoreAutoTrace {
+public class MnemonicBackupActivity extends BaseActivity<NormalView, NormalPresenter>implements NormalView {
 //public class MnemonicBackupActivity extends BaseActivity<NormalView, NormalPresenter>implements NormalView {
     private static final int VERIFY_MNEMONIC_BACKUP_REQUEST = 1101;
     @BindView(R.id.tv_mnemonic)

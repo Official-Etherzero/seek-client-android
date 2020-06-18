@@ -8,7 +8,6 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.TextView;
 
-import com.baidu.mobstat.IIgnoreAutoTrace;
 import com.easyetz.R;
 import com.easyetz.base.BaseActivity;
 import com.easyetz.bean.BalanceEntity;
@@ -42,7 +41,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import io.reactivex.schedulers.Schedulers;
 
-public class DappTransaction extends BaseActivity<DappTransactionView, DappTransactionPresenter> implements DappTransactionView, IIgnoreAutoTrace {
+public class DappTransaction extends BaseActivity<DappTransactionView, DappTransactionPresenter> implements DappTransactionView {
 
     @BindView(R.id.dapp_to)
     MText d_to;

@@ -7,7 +7,6 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
 
-import com.baidu.mobstat.IIgnoreAutoTrace;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.easyetz.R;
 import com.easyetz.adapter.VerifyBackupMnemonicWordsAdapter;
@@ -26,7 +25,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.OnClick;
 
-public class VerifyMnemonicBackupActivity extends BaseActivity<NormalView, NormalPresenter>implements NormalView,IIgnoreAutoTrace {
+public class VerifyMnemonicBackupActivity extends BaseActivity<NormalView, NormalPresenter>implements NormalView {
 //public class VerifyMnemonicBackupActivity extends BaseActivity<NormalView, NormalPresenter>implements NormalView{
     private static final int VERIFY_SUCCESS_RESULT = 2202;
     @BindView(R.id.rv_selected)

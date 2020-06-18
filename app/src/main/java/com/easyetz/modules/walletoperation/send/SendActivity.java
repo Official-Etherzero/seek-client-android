@@ -1,6 +1,5 @@
 package com.easyetz.modules.walletoperation.send;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,23 +7,18 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Gravity;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
-import com.baidu.mobstat.IIgnoreAutoTrace;
 import com.easyetz.R;
 import com.easyetz.base.BaseActivity;
 import com.easyetz.base.Constants;
 import com.easyetz.bean.BalanceEntity;
-import com.easyetz.bean.CryptoRequest;
 import com.easyetz.bean.TokenInfo;
 import com.easyetz.bean.WalletBean;
 import com.easyetz.blockchain.EtzWalletManager;
-import com.easyetz.modules.main.MainActivity;
 import com.easyetz.modules.walletoperation.CreateTransactionInteract;
 import com.easyetz.modules.walletoperation.EthereumNetworkRepository;
 import com.easyetz.sqlite.BalanceDataSource;
-import com.easyetz.utils.CryptoUriParser;
 import com.easyetz.utils.ETZAnimator;
 import com.easyetz.utils.KeyBoardUtil;
 import com.easyetz.utils.MyLog;
@@ -45,7 +39,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import io.reactivex.schedulers.Schedulers;
 
-public class SendActivity extends BaseActivity<SendView, SendPresenter> implements SendView ,IIgnoreAutoTrace {
+public class SendActivity extends BaseActivity<SendView, SendPresenter> implements SendView {
 //public class SendActivity extends BaseActivity<SendView, SendPresenter> implements SendView {
 
     @BindView(R.id.address_edit)

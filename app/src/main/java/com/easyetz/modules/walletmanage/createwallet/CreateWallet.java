@@ -13,7 +13,6 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.baidu.mobstat.IIgnoreAutoTrace;
 import com.easyetz.R;
 import com.easyetz.base.BaseActivity;
 import com.easyetz.base.Constants;
@@ -35,7 +34,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class CreateWallet extends BaseActivity<CreateWalletView, CreateWalletPresenter> implements CreateWalletView,IIgnoreAutoTrace {
+public class CreateWallet extends BaseActivity<CreateWalletView, CreateWalletPresenter> implements CreateWalletView {
 //public class CreateWallet extends BaseActivity<CreateWalletView, CreateWalletPresenter> implements CreateWalletView{
 
     private static final int CREATE_WALLET_RESULT = 2202;
@@ -130,7 +129,7 @@ public class CreateWallet extends BaseActivity<CreateWalletView, CreateWalletPre
                 String walletName = etWalletName.getText().toString().trim();
                 String walletPwd = etWalletPwd.getText().toString().trim();
                 String confirmPwd = etWalletPwdAgain.getText().toString().trim();
-                boolean verifyWalletInfo = presenter.verifyInfo(activity,walletName, walletPwd, confirmPwd);
+                boolean verifyWalletInfo = presenter.verifyInfo(activity, walletName, walletPwd, confirmPwd);
                 if (verifyWalletInfo) {
                     loadingDialog = new LoadingDialog(activity);
                     loadingDialog.show();
@@ -155,27 +154,27 @@ public class CreateWallet extends BaseActivity<CreateWalletView, CreateWalletPre
 
     public void showError(Throwable errorInfo) {
         loadingDialog.dismiss();
-        ToastUtils.showLongToast(activity,errorInfo.getMessage());
+        ToastUtils.showLongToast(activity, errorInfo.getMessage());
     }
 
     public void jumpToWalletBackUp(WalletBean wallet) {
-        ToastUtils.showLongToast(activity,R.string.create_wallet_ok);
+        ToastUtils.showLongToast(activity, R.string.create_wallet_ok);
         loadingDialog.dismiss();
 //        if (getIntent().getIntExtra("from", 0) != 0) {
         WalletsMaster.getInstance().getWalletByIso(activity, wallet.getId().substring(0, 4)).setmAddress(wallet.getAddress());
-            String phrase = "";
-            try {
-                phrase = ETZKeyStore.decodetData(wallet.getMnemonic());
-                MyLog.i("DeterministicSeed=====" + phrase);
+        String phrase = "";
+        try {
+            phrase = ETZKeyStore.decodetData(wallet.getMnemonic());
+            MyLog.i("DeterministicSeed=====" + phrase);
 
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            Intent intent = new Intent(this, MnemonicBackupActivity.class);
-            intent.putExtra("from",getIntent().getIntExtra("from", 0));
-            intent.putExtra("walletId", wallet.getId());
-            intent.putExtra("walletMnemonic", phrase);
-            startActivity(intent);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        Intent intent = new Intent(this, MnemonicBackupActivity.class);
+        intent.putExtra("from", getIntent().getIntExtra("from", 0));
+        intent.putExtra("walletId", wallet.getId());
+        intent.putExtra("walletMnemonic", phrase);
+        startActivity(intent);
 //        }
         finish();
     }

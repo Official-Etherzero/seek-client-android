@@ -22,7 +22,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 //import com.baidu.mobstat.StatService;
-import com.baidu.mobstat.StatService;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.easyetz.R;
 import com.easyetz.adapter.PropertyAdapter;
@@ -270,7 +269,6 @@ public class PropertyFragment extends BaseFragment<PropertyView, PropertyPresent
                 break;
             case R.id.btn_miner:
                 presenter.getMinerMore(wallet.getAddress());
-                StatService.onEvent(getActivity(), "btn_miner", "进入矿工页面", 1);
                 intent = new Intent(getActivity(), WebViewActivity.class);
                 startActivity(intent);
                 break;
@@ -299,7 +297,6 @@ public class PropertyFragment extends BaseFragment<PropertyView, PropertyPresent
                 rl_banner.setVisibility(View.GONE);
                 break;
             case R.id.rl_banner://
-                StatService.onEvent(getActivity(), "banner_miner", "广告页进入矿工页面", 1);
                 intent = new Intent(getActivity(), WebViewActivity.class);
                 startActivity(intent);
                 break;

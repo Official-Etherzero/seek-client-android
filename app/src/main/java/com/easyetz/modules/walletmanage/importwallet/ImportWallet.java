@@ -3,7 +3,6 @@ package com.easyetz.modules.walletmanage.importwallet;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 
-import com.baidu.mobstat.IIgnoreAutoTrace;
 import com.easyetz.R;
 import com.easyetz.adapter.LoadWalletPageFragmentAdapter;
 import com.easyetz.base.BaseActivity;
@@ -25,7 +24,7 @@ import java.util.List;
 
 import butterknife.BindView;
 
-public class ImportWallet extends BaseActivity<CreateWalletView, CreateWalletPresenter> implements CreateWalletView ,IIgnoreAutoTrace {
+public class ImportWallet extends BaseActivity<CreateWalletView, CreateWalletPresenter> implements CreateWalletView {
 //public class ImportWallet extends BaseActivity<CreateWalletView, CreateWalletPresenter> implements CreateWalletView  {
 
     @BindView(R.id.indicator_view)

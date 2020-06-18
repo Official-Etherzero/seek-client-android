@@ -11,7 +11,6 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.baidu.mobstat.IIgnoreAutoTrace;
 import com.easyetz.R;
 import com.easyetz.base.BaseActivity;
 import com.easyetz.bean.WalletBean;
@@ -27,8 +26,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import de.hdodenhof.circleimageview.CircleImageView;
 
-public class UpdatePasswordActivity extends BaseActivity<UpdatePwdView, UpdatePwdPresenter> implements UpdatePwdView,IIgnoreAutoTrace {
-//public class UpdatePasswordActivity extends BaseActivity<UpdatePwdView, UpdatePwdPresenter> implements UpdatePwdView {
+public class UpdatePasswordActivity extends BaseActivity<UpdatePwdView, UpdatePwdPresenter> implements UpdatePwdView {
 
 
     @BindView(R.id.iv_back)
@@ -114,7 +112,7 @@ public class UpdatePasswordActivity extends BaseActivity<UpdatePwdView, UpdatePw
                 String oldPwd = currentPwd.getText().toString().trim();
                 String pwd = newPwd.getText().toString().trim();
                 String pwdAgain = affirmPwd.getText().toString().trim();
-                if (presenter.verifyPassword(activity,oldPwd, pwd, pwdAgain, walletBean.getPassword())) {
+                if (presenter.verifyPassword(activity, oldPwd, pwd, pwdAgain, walletBean.getPassword())) {
                     modifyWalletInteract.modifyWalletPwd(walletBean.getId(), oldPwd, pwd).subscribe(this::modifyPwdSuccess);
                 }
                 break;
@@ -147,10 +145,10 @@ public class UpdatePasswordActivity extends BaseActivity<UpdatePwdView, UpdatePw
 
     public void modifyPwdSuccess(boolean b) {
         if (b) {
-            ToastUtils.showLongToast(activity,R.string.modify_password_success);
+            ToastUtils.showLongToast(activity, R.string.modify_password_success);
             finish();
         } else
-            ToastUtils.showLongToast(activity,R.string.modify_password_fail);
+            ToastUtils.showLongToast(activity, R.string.modify_password_fail);
 
     }
 }
